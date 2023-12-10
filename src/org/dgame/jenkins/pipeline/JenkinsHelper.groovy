@@ -8,8 +8,7 @@ final class JenkinsHelper {
     }
 
     static void say() {
-        println("this is class :" + this.name)
-        println("this is function:" + this.getClass().getEnclosingMethod().getName())
+        println("this is function say of class JenkinsHelper")
     }
 }
 
