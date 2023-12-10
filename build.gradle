@@ -44,7 +44,7 @@ tasks.register('release', Copy) {
     dependsOn tasks.build, tasks.echo
     from "$buildDir/libs"
     include "*.jar"
-    into "../jenkins-jobs/lib/"
+    into "../jobs/lib/"
 }
 
 java {
